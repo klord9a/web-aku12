@@ -104,17 +104,17 @@
   }
 }
 .dt-mega-parent .sidebar-content .widget .team-author p {
-  font:    13px / 20px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  font:    15px / 1.4em "Roboto", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
   color: rgba(51,51,51,0.5);
 }
 .sidebar-content .team-author p {
-  font:    13px / 20px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  font:    15px / 1.4em "Roboto", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
   color: rgba(139,141,148,0.5);
 }
 .footer .team-author p {
-  font:    13px / 20px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  font:    15px / 1.4em "Roboto", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
   color: rgba(139,141,148,0.5);
 }

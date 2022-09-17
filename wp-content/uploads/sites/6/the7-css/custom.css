@@ -524,8 +524,18 @@ blockquote.has-accent-color,
 .wp-block-cover .wp-block-cover-image-text,
 .wp-block-cover .wp-block-cover-text,
 .wp-block-cover h2 {
-  font:  normal 700 24px / 34px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+  font:  normal 700 24px / 1.2em "Roboto", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
+}
+@media (max-width: 600px) {
+  .wp-block-cover-image .wp-block-cover-image-text,
+  .wp-block-cover-image .wp-block-cover-text,
+  .wp-block-cover-image h2,
+  .wp-block-cover .wp-block-cover-image-text,
+  .wp-block-cover .wp-block-cover-text,
+  .wp-block-cover h2 {
+    font-size: 20px;
+  }
 }
 .wp-block-categories li a,
 .wp-block-archives li a,
@@ -3935,7 +3945,7 @@ a.rsswidget:hover {
   display: block;
   color: #333333;
   margin-bottom: 8px;
-  font:    15px / 20px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  font:   700 16px / 1.3em "Roboto", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
   font-size: var(--the7-base-font-size);
   line-height: var(--the7-base-line-height);
@@ -4933,7 +4943,8 @@ div.mc4wp-form button[type="submit"],
 input[type="submit"]:not([name="update_cart"]),
 .woocommerce-widget-layered-nav-dropdown__submit,
 .give-btn.give-btn-reveal,
-.give-submit.give-btn {
+.give-submit.give-btn,
+.wc-block-filter-submit-button {
   color: var(--the7-btn-color);
   background: var(--the7-btn-bg,transparent linear-gradient(135deg, #1ebbf0 30%, #39dfaa 100%));
 }
@@ -5068,7 +5079,13 @@ input[type="submit"]:not([name="update_cart"]) *,
 .sidebar .give-submit.give-btn,
 .sidebar .widget .give-submit.give-btn,
 .sidebar-content .widget .give-submit.give-btn,
-.footer .give-submit.give-btn {
+.footer .give-submit.give-btn,
+.stripe .wc-block-filter-submit-button,
+.wc-block-filter-submit-button *,
+.sidebar .wc-block-filter-submit-button,
+.sidebar .widget .wc-block-filter-submit-button,
+.sidebar-content .widget .wc-block-filter-submit-button,
+.footer .wc-block-filter-submit-button {
   color: var(--the7-btn-color);
 }
 .btn-bg-off .mec-event-footer .mec-booking-button:not(:hover),
@@ -5092,7 +5109,8 @@ input[type="submit"]:not([name="update_cart"]) *,
 .btn-bg-off input[type="submit"]:not([name="update_cart"]):not(:hover),
 .btn-bg-off .woocommerce-widget-layered-nav-dropdown__submit:not(:hover),
 .btn-bg-off .give-btn.give-btn-reveal:not(:hover),
-.btn-bg-off .give-submit.give-btn:not(:hover) {
+.btn-bg-off .give-submit.give-btn:not(:hover),
+.btn-bg-off .wc-block-filter-submit-button:not(:hover) {
   background: none;
 }
 .mec-event-footer .mec-booking-button:hover > *,
@@ -5138,7 +5156,9 @@ input[type="submit"]:not([name="update_cart"]):hover,
 .give-btn.give-btn-reveal:hover > *,
 .give-btn.give-btn-reveal:hover,
 .give-submit.give-btn:hover > *,
-.give-submit.give-btn:hover {
+.give-submit.give-btn:hover,
+.wc-block-filter-submit-button:hover > *,
+.wc-block-filter-submit-button:hover {
   color: var(--the7-btn-hover-color);
 }
 .stripe .mec-event-footer .mec-booking-button:hover > *,
@@ -5404,7 +5424,19 @@ input[type="submit"]:not([name="update_cart"]):hover *,
 .sidebar .give-submit.give-btn:hover,
 .sidebar .widget .give-submit.give-btn:hover,
 .sidebar-content .widget .give-submit.give-btn:hover,
-.footer .give-submit.give-btn:hover {
+.footer .give-submit.give-btn:hover,
+.stripe .wc-block-filter-submit-button:hover > *,
+.wc-block-filter-submit-button:hover > * *,
+.sidebar .wc-block-filter-submit-button:hover > *,
+.sidebar .widget .wc-block-filter-submit-button:hover > *,
+.sidebar-content .widget .wc-block-filter-submit-button:hover > *,
+.footer .wc-block-filter-submit-button:hover > *,
+.stripe .wc-block-filter-submit-button:hover,
+.wc-block-filter-submit-button:hover *,
+.sidebar .wc-block-filter-submit-button:hover,
+.sidebar .widget .wc-block-filter-submit-button:hover,
+.sidebar-content .widget .wc-block-filter-submit-button:hover,
+.footer .wc-block-filter-submit-button:hover {
   color: var(--the7-btn-hover-color);
 }
 .mec-event-footer .mec-booking-button:hover,
@@ -5428,7 +5460,8 @@ div.mc4wp-form button[type="submit"]:hover,
 input[type="submit"]:not([name="update_cart"]):hover,
 .woocommerce-widget-layered-nav-dropdown__submit:hover,
 .give-btn.give-btn-reveal:hover,
-.give-submit.give-btn:hover {
+.give-submit.give-btn:hover,
+.wc-block-filter-submit-button:hover {
   border-color: var(--the7-btn-border-hover-color);
 }
 #page .mec-event-footer .mec-booking-button:hover,
@@ -5474,7 +5507,9 @@ input[type="submit"]:not([name="update_cart"]):hover,
 #page .give-btn.give-btn-reveal:hover,
 .tinv-modal .give-btn.give-btn-reveal:hover,
 #page .give-submit.give-btn:hover,
-.tinv-modal .give-submit.give-btn:hover {
+.tinv-modal .give-submit.give-btn:hover,
+#page .wc-block-filter-submit-button:hover,
+.tinv-modal .wc-block-filter-submit-button:hover {
   background: var(--the7-btn-hover-bg,transparent linear-gradient(135deg, #23aadd 30%, #37ce9d 100%));
 }
 .btn-hover-bg-off #page .mec-event-footer .mec-booking-button:hover,
@@ -5498,7 +5533,8 @@ input[type="submit"]:not([name="update_cart"]):hover,
 .btn-hover-bg-off #page input[type="submit"]:not([name="update_cart"]):hover,
 .btn-hover-bg-off #page .woocommerce-widget-layered-nav-dropdown__submit:hover,
 .btn-hover-bg-off #page .give-btn.give-btn-reveal:hover,
-.btn-hover-bg-off #page .give-submit.give-btn:hover {
+.btn-hover-bg-off #page .give-submit.give-btn:hover,
+.btn-hover-bg-off #page .wc-block-filter-submit-button:hover {
   background: none;
 }
 .mec-event-footer .mec-booking-button:hover .text-wrap,
@@ -5522,7 +5558,8 @@ div.mc4wp-form button[type="submit"]:hover .text-wrap,
 input[type="submit"]:not([name="update_cart"]):hover .text-wrap,
 .woocommerce-widget-layered-nav-dropdown__submit:hover .text-wrap,
 .give-btn.give-btn-reveal:hover .text-wrap,
-.give-submit.give-btn:hover .text-wrap {
+.give-submit.give-btn:hover .text-wrap,
+.wc-block-filter-submit-button:hover .text-wrap {
   color: var(--the7-btn-hover-color);
 }
 .wc-block-product-search .wc-block-product-search__button,
@@ -8194,24 +8231,44 @@ h3.gform_title,
   background: linear-gradient(135deg, #1ebbf0 30%, #39dfaa 100%) !important;
 }
 #main .wpb_alert strong {
-  font:  normal 700 16px / 26px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+  font:  normal 700 16px / 1.3em "Roboto", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 .uvc-heading.uvc-heading-default-font-sizes .uvc-main-heading h1 {
-  line-height: 62px;
+  line-height: 1.1em;
+}
+@media (max-width: 992px) {
+  .uvc-heading.uvc-heading-default-font-sizes .uvc-main-heading h1 {
+    line-height: 1.2em;
+  }
+}
+@media (max-width: 600px) {
+  .uvc-heading.uvc-heading-default-font-sizes .uvc-main-heading h1 {
+    line-height: 1.2em;
+  }
 }
 .uvc-heading.uvc-heading-default-font-sizes .uvc-main-heading h2 {
-  line-height: 44px;
+  line-height: 1.1em;
+}
+@media (max-width: 992px) {
+  .uvc-heading.uvc-heading-default-font-sizes .uvc-main-heading h2 {
+    line-height: 1.2em;
+  }
+}
+@media (max-width: 600px) {
+  .uvc-heading.uvc-heading-default-font-sizes .uvc-main-heading h2 {
+    line-height: 1.2em;
+  }
 }
 .uvc-heading.uvc-heading-default-font-sizes .uvc-main-heading h3 {
-  line-height: 34px;
+  line-height: 1.2em;
 }
 .uvc-heading.uvc-heading-default-font-sizes .uvc-main-heading h4 {
-  line-height: 30px;
+  line-height: 1.3em;
 }
 .uvc-heading.uvc-heading-default-font-sizes .uvc-main-heading h5 {
-  line-height: 26px;
+  line-height: 1.3em;
 }
 .uvc-heading.uvc-heading-default-font-sizes .uvc-main-heading h6 {
-  line-height: 24px;
+  line-height: 1.4em;
 }
