@@ -1734,7 +1734,9 @@ body .price_slider_wrapper .button,
 body .woocommerce-orders-table a.button,
 #phantom .woocommerce-orders-table a.button,
 body .wc-layout-list .woo-buttons a,
-#phantom .wc-layout-list .woo-buttons a {
+#phantom .wc-layout-list .woo-buttons a,
+body .wc-block-filter-submit-button,
+#phantom .wc-block-filter-submit-button {
   font: var(--the7-btn-s-font);
   text-transform: var(--the7-btn-s-text-transform);
   border-radius: var(--the7-btn-s-border-radius);
@@ -1743,6 +1745,12 @@ body .wc-layout-list .woo-buttons a,
   padding: var(--the7-btn-s-padding);
   min-width: var(--the7-btn-s-min-width);
   min-height: var(--the7-btn-s-min-height);
+}
+.wc-block-filter-submit-button {
+  margin-bottom: 10px;
+}
+.wc-block-components-price-slider__range-input-progress {
+  --range-color: var(--the7-accent-color);
 }
 .woocommerce-widget-layered-nav .select2-container .select2-selection--multiple .select2-selection__rendered {
   display: inline-flex;
@@ -3279,6 +3287,9 @@ body .widget_product_search button[type="submit"]:hover {
 .woocommerce-widget-layered-nav-dropdown .select2-search {
   padding: 0;
 }
+.wc-block-components-price-slider__range-input {
+  min-height: unset !important;
+}
 .widget_price_filter .price_slider {
   margin-bottom: 20px;
 }
@@ -4436,33 +4447,6 @@ body .quantity .minus {
   padding: 5px 15px;
   box-sizing: border-box;
 }
-.cart td.actions .coupon label:before {
-  margin-right: 5px;
-  font-family: 'icomoon-the7-font';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  font-size: 14px;
-  line-height: 1;
-  content: "\ea05";
-}
-input[name="coupon_code"]::-webkit-input-placeholder:before,
-input[name="coupon_code"]::-moz-placeholder:before,
-input[name="coupon_code"]:-ms-input-placeholder:before,
-input[name="coupon_code"]:-moz-placeholder:before {
-  margin-right: 5px;
-  font-family: 'icomoon-the7-font';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  font-size: 14px;
-  line-height: 1;
-  content: "\ea05";
-}
 .woocommerce-cart-wrap .wc-coupon-text,
 .woocommerce-cart-wrap .wc-coupon-field {
   display: inline-block;
@@ -4470,23 +4454,6 @@ input[name="coupon_code"]:-moz-placeholder:before {
 .woocommerce-cart-wrap .wc-coupon-text {
   position: relative;
   margin-right: 20px;
-}
-.woocommerce-cart-wrap .wc-coupon-text:after {
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  content: "\ea05";
-  font-family: 'icomoon-the7-font';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  font-size: 84px;
-  line-height: 1;
 }
 .woocommerce-cart-wrap .wc-coupon-text > span {
   position: relative;
