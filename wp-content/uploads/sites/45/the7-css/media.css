@@ -1661,7 +1661,7 @@
     transform: translateX(-100%);
   }
 }
-@media screen and (max-width: ) {
+@media screen and (max-width: 768px) {
   .product div.images,
   .product div.summary {
     width: 100%;
@@ -1690,7 +1690,7 @@
     margin-bottom: 5px;
   }
 }
-@media screen and (max-width: ) {
+@media screen and (max-width: 500px) {
   .wc-layout-list .woocom-project {
     -ms-flex-flow: column wrap;
     flex-flow: column wrap;
@@ -1707,7 +1707,7 @@
     display: none;
   }
 }
-@media screen and (max-width: ) {
+@media screen and (max-width: 700px) {
   .woocommerce-cart-wrap .cart-collaterals,
   .woocommerce-cart-wrap .cross-sells {
     width: 100%;
