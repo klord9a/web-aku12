@@ -182,7 +182,7 @@
   --the7-floating-mobile-logo-right-padding: 0px;
   --the7-floating-mobile-logo-top-padding: 0px;
   --the7-footer-bg-color: #1a1c20;
-  --the7-footer-bg-image: url('https://web-aku12-2.run-us-west2.goorm.io/wp-content/uploads/sites/34d/wp-content/themes/dt-the7/images/backgrounds/patterns/full/binding_dark.gif');
+  --the7-footer-bg-image: url('/wp-content/themes/dt-the7/images/backgrounds/patterns/full/binding_dark.gif');
   --the7-footer-bg-position-x: center;
   --the7-footer-bg-position-y: top;
   --the7-footer-bg-repeat: repeat;
@@ -501,7 +501,7 @@
   --the7-page-responsive-title-line-height: 30px;
   --the7-page-right-margin: 50px;
   --the7-page-title-bg-color: #000000;
-  --the7-page-title-bg-image: url('https://web-aku12-2.run-us-west2.goorm.io/wp-content/uploads/sites/34/2019/01/w002.jpg');
+  --the7-page-title-bg-image: url('/wp-content/uploads/sites/34/2019/01/w002.jpg');
   --the7-page-title-bg-position-x: center;
   --the7-page-title-bg-position-y: center;
   --the7-page-title-bg-repeat: repeat;

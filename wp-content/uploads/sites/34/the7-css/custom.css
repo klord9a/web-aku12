@@ -2946,7 +2946,7 @@ html:not(.touchevents) .dt-mobile-header::-webkit-scrollbar-track {
   background-color: #000000;
 }
 .page-title.solid-bg.bg-img-enabled {
-  background-image: url('https://web-aku12-2.run-us-west2.goorm.io/wp-content/uploads/sites/34/2019/01/w002.jpg');
+  background-image: url('/wp-content/uploads/sites/34/2019/01/w002.jpg');
   background-repeat: repeat;
   background-position: center center;
   background-size: cover;
@@ -6282,7 +6282,7 @@ select:not(.elementor-field),
   color: #ffffff;
 }
 #footer.solid-bg {
-  background: #1a1c20 url('https://web-aku12-2.run-us-west2.goorm.io/wp-content/uploads/sites/34d/wp-content/themes/dt-the7/images/backgrounds/patterns/full/binding_dark.gif') repeat center top;
+  background: #1a1c20 url('/wp-content/themes/dt-the7/images/backgrounds/patterns/full/binding_dark.gif') repeat center top;
 }
 #footer.footer-outline-decoration {
   border-top: 1px solid rgba(129,215,66,0.96);
