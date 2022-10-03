@@ -84,7 +84,7 @@
 }
 .team-author p {
   color: #252f37;
-  font:   700  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
+  font:   800  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 .dt-team-shortcode .team-author p {
@@ -206,7 +206,7 @@
 }
 .widget .team-author-name,
 .widget .team-author-name a {
-  font:   700  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
+  font:   800  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
   color: #252f37;
 }
@@ -239,32 +239,32 @@
   color: #ffffff;
 }
 .rsTitle {
-  font:   700  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
+  font:   800  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 .rsDesc {
-  font:   700  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
+  font:   800  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 @media screen and (max-width: 1200px) {
   .rsTitle {
-    font:   700  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
+    font:   800  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
   }
   .rsDesc {
-    font:   700  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
+    font:   800  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
   }
 }
 @media screen and (max-width: 1024px) {
   .rsTitle {
-    font:   700  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
+    font:   800  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
   }
   .rsDesc {
-    font:   700  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
+    font:   800  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
   }
 }
 @media screen and (max-width: 800px) {
   .rsTitle {
-    font:   700  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
+    font:   800  /  "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
   }
   .rsDesc {
     font:    15px / 26px "Nunito Sans", Helvetica, Arial, Verdana, sans-serif;
