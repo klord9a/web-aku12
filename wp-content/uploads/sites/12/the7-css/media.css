@@ -74,9 +74,10 @@
   .masthead:not(.side-header):not(.side-header-v-stroke):not(.side-header-menu-icon) .header-bar,
   .ph-wrap {
     padding-right: 0px;
+    padding-left: 0px;
   }
   .top-header .mega-full-width > .dt-mega-menu-wrap {
-    width: calc(1200px - 0px - );
+    width: calc(1200px - 0px - 0px);
   }
   .boxed .masthead:not(.full-width):not(.side-header):not(.side-header-menu-icon):not(.side-header-v-stroke) .header-bar,
   .boxed .ph-wrap {
@@ -90,14 +91,14 @@
   .boxed .masthead:not(.width-in-pixel):not(.sticky-on) .top-bar-bg,
   .boxed.masthead:not(.width-in-pixel):not(#phantom) .top-bar-bg,
   .boxed .classic-header:not(.width-in-pixel) .navigation:before {
-    margin: 0 0px 0 -;
+    margin: 0 0px 0 0px;
     padding: 0 1000px;
   }
   .ph-wrap,
   #phantom .ph-wrap.boxed,
   .boxed .top-bar.line-content:before,
   .boxed .classic-header.content-width-line .navigation:before {
-    max-width: calc(1200px - 0px - );
+    max-width: calc(1200px - 0px - 0px);
   }
   .side-header > .top-bar,
   .mixed-header:not(.side-header-h-stroke) > .top-bar {
@@ -310,13 +311,14 @@
   .masthead:not(.side-header):not(.side-header-v-stroke):not(.side-header-menu-icon) .header-bar,
   .ph-wrap {
     padding-right: 0px;
+    padding-left: 0px;
   }
   .phantom-content-width-line-decoration #phantom .ph-wrap:after {
-    width: calc(100% - 0px - );
+    width: calc(100% - 0px - 0px);
   }
   .masthead.content-width-line-decoration:not(.mixed-header):not(.side-header):not(.masthead-mobile-header):not(#phantom) .header-bar:after,
   .mixed-header.side-header-h-stroke.content-width-line-decoration:not(.masthead-mobile-header) .header-bar:after {
-    width: calc(100% - 0px - );
+    width: calc(100% - 0px - 0px);
   }
 }
 @media screen and (min-width: 778px) {
@@ -2186,12 +2188,13 @@
   .project-navigation > span,
   .album-content-description,
   .hide-thumb-btn,
-  .photo-scroller .ts-wrap.scroller-thumbnails,
+  .photo-scroller:not([class*="the7_photo-scroller"]) .ts-wrap.scroller-thumbnails,
+  .photo-scroller:not([class*="the7_photo-scroller"]) .hide-thumb-btn,
   .share-overlay h3 {
     display: none;
   }
-  .photo-scroller .btn-cntr,
-  .photo-scroller .slide-caption {
+  .photo-scroller:not([class*="the7_photo-scroller"]) .btn-cntr,
+  .photo-scroller:not([class*="the7_photo-scroller"]) .slide-caption {
     bottom: 5px !important;
   }
   .project-navigation .next-post {
