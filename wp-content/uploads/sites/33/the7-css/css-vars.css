@@ -1,7 +1,7 @@
 :root {
   --the7-accent-bg-color: #47bbe5;
   --the7-accent-color: #47bbe5;
-  --the7-additional-logo-elements-font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  --the7-additional-logo-elements-font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
   --the7-additional-logo-elements-font-size: 20px;
   --the7-additional-logo-elements-icon-size: 0px;
   --the7-additional-menu-elements-color: #222222;
@@ -116,6 +116,7 @@
   --the7-button-shadow-spread: 0px;
   --the7-button-shadow-vertical: 0px;
   --the7-classic-menu-bottom-margin: 0px;
+  --the7-classic-menu-top-margin: 0px;
   --the7-close-menu-caption-color-hover: #ffffff;
   --the7-close-menu-caption-color: #ffffff;
   --the7-close-menu-caption-font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
@@ -277,9 +278,11 @@
   --the7-logo-area-left-padding-bottom: 0px;
   --the7-logo-area-left-padding-left: 0px;
   --the7-logo-area-left-padding-right: 0px;
+  --the7-logo-area-left-padding-top: 0px;
   --the7-logo-area-right-padding-bottom: 0px;
   --the7-logo-area-right-padding-left: 0px;
   --the7-logo-area-right-padding-right: 0px;
+  --the7-logo-area-right-padding-top: 0px;
   --the7-main-logo-bottom-padding: 50px;
   --the7-main-logo-left-padding: 0px;
   --the7-main-logo-right-padding: 0px;
@@ -323,9 +326,11 @@
   --the7-menu-area-left-padding-bottom: 0px;
   --the7-menu-area-left-padding-left: 0px;
   --the7-menu-area-left-padding-right: 0px;
+  --the7-menu-area-left-padding-top: 0px;
   --the7-menu-area-right-padding-bottom: 0px;
   --the7-menu-area-right-padding-left: 0px;
   --the7-menu-area-right-padding-right: 0px;
+  --the7-menu-area-right-padding-top: 0px;
   --the7-menu-area-top-line-padding-bottom: 0px;
   --the7-menu-area-top-line-padding-left: 0px;
   --the7-menu-area-top-line-padding-right: 0px;
@@ -707,13 +712,13 @@
   --the7-widget-title-line-height-desktop: 26px;
   --the7-widget-title-line-height: 26px;
   --the7-widget-title-text-transform: none;
-  --the7-woo-content-font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  --the7-woo-content-font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
   --the7-woo-content-font-size-desktop: 20px;
   --the7-woo-content-font-size: 20px;
   --the7-woo-content-line-height-desktop: 30px;
   --the7-woo-content-line-height: 30px;
   --the7-woo-content-text-transform: none;
-  --the7-woo-title-font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  --the7-woo-title-font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
   --the7-woo-title-font-size-desktop: 20px;
   --the7-woo-title-font-size: 20px;
   --the7-woo-title-line-height-desktop: 30px;
