@@ -4,8 +4,8 @@
 }
 .accent-gradient .accent-bg-mixin {
   background: #1ebbf0;
-  background: -webkit-linear-gradient(135deg, #1ebbf0 30%, #39dfaa 100%);
-  background: linear-gradient(135deg, #1ebbf0 30%, #39dfaa 100%);
+  background: -webkit-linear-gradient();
+  background: linear-gradient();
 }
 .solid-bg-mixin {
   background-color: rgba(0,0,0,0.04);
@@ -93,7 +93,7 @@
   color: #1ebbf0;
 }
 .accent-gradient .dt-team-shortcode .team-author p {
-  background: -webkit-linear-gradient(left, #1ebbf0 30%, #39dfaa 100%);
+  background: -webkit-linear-gradient();
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -142,7 +142,7 @@
   color: #1ebbf0;
 }
 .accent-gradient .dt-testimonials-shortcode .testimonial-vcard .text-secondary {
-  background: -webkit-linear-gradient(left, #1ebbf0 30%, #39dfaa 100%);
+  background: -webkit-linear-gradient();
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -194,7 +194,7 @@
   color: #1ebbf0;
 }
 .accent-gradient .content .team-author-name a:hover {
-  background: -webkit-linear-gradient(left, #1ebbf0 30%, #39dfaa 100%);
+  background: -webkit-linear-gradient();
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;

@@ -527,7 +527,7 @@
 }
 .accent-gradient .dt-mega-parent .sidebar-content .widget a:not(.button):not(.dt-btn):hover,
 .accent-gradient .dt-mega-parent .sidebar-content .widget a:not(.button):not(.dt-btn):hover * {
-  background: -webkit-linear-gradient(left, #1ebbf0 30%, #39dfaa 100%);
+  background: -webkit-linear-gradient();
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -610,7 +610,7 @@
 .accent-gradient .dt-mega-parent .sidebar-content .widget .tagcloud a:hover,
 .accent-gradient .dt-mega-parent .sidebar-content .widget .widget_nav_menu a:hover,
 .accent-gradient .dt-mega-parent .sidebar-content .widget a.rsswidget:hover {
-  background: -webkit-linear-gradient(left, #1ebbf0 30%, #39dfaa 100%);
+  background: -webkit-linear-gradient();
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
