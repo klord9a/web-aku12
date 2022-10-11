@@ -1,10 +1,10 @@
 :root {
   --the7-accent-bg-color: #999999;
   --the7-accent-color: #999999;
-  --the7-additional-logo-elements-font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  --the7-additional-logo-elements-font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
   --the7-additional-logo-elements-font-size: 20px;
   --the7-additional-logo-elements-icon-size: 0px;
-  --the7-additional-menu-elements-font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  --the7-additional-menu-elements-font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
   --the7-additional-menu-elements-font-size: 20px;
   --the7-additional-menu-elements-icon-size: 0px;
   --the7-base-border-radius: 0px;
@@ -136,6 +136,7 @@
   --the7-button-shadow-vertical: 0px;
   --the7-cart-total-width: 30%;
   --the7-classic-menu-bottom-margin: 0px;
+  --the7-classic-menu-top-margin: 0px;
   --the7-close-menu-caption-color-hover: #000000;
   --the7-close-menu-caption-color: #000000;
   --the7-close-menu-caption-font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
@@ -264,6 +265,8 @@
   --the7-header-decoration-size: 1px;
   --the7-header-decoration: rgba(51,51,51,0.11);
   --the7-header-height: 140px;
+  --the7-header-left-padding: 0px;
+  --the7-header-mobile-left-padding: 0px;
   --the7-header-mobile-menu-bottom-padding: 30px;
   --the7-header-mobile-menu-left-padding: 30px;
   --the7-header-mobile-menu-right-padding: 10px;
@@ -289,9 +292,11 @@
   --the7-logo-area-left-padding-bottom: 0px;
   --the7-logo-area-left-padding-left: 0px;
   --the7-logo-area-left-padding-right: 0px;
+  --the7-logo-area-left-padding-top: 0px;
   --the7-logo-area-right-padding-bottom: 0px;
   --the7-logo-area-right-padding-left: 0px;
   --the7-logo-area-right-padding-right: 0px;
+  --the7-logo-area-right-padding-top: 0px;
   --the7-main-logo-bottom-padding: 0px;
   --the7-main-logo-left-padding: 0px;
   --the7-main-logo-right-padding: 0px;
@@ -330,18 +335,23 @@
   --the7-menu-area-below-padding-bottom: 0px;
   --the7-menu-area-below-padding-left: 0px;
   --the7-menu-area-below-padding-right: 0px;
+  --the7-menu-area-below-padding-top: 0px;
   --the7-menu-area-left-padding-bottom: 0px;
   --the7-menu-area-left-padding-left: 0px;
   --the7-menu-area-left-padding-right: 0px;
+  --the7-menu-area-left-padding-top: 0px;
   --the7-menu-area-right-padding-bottom: 0px;
   --the7-menu-area-right-padding-left: 0px;
   --the7-menu-area-right-padding-right: 0px;
+  --the7-menu-area-right-padding-top: 0px;
   --the7-menu-area-top-line-padding-bottom: 0px;
   --the7-menu-area-top-line-padding-left: 0px;
   --the7-menu-area-top-line-padding-right: 0px;
+  --the7-menu-area-top-line-padding-top: 0px;
   --the7-menu-area-top-line-right-padding-bottom: 0px;
   --the7-menu-area-top-line-right-padding-left: 0px;
   --the7-menu-area-top-line-right-padding-right: 0px;
+  --the7-menu-area-top-line-right-padding-top: 0px;
   --the7-menu-caption-font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
   --the7-menu-caption-font-size: 16px;
   --the7-menu-caption-gap: 10px;
@@ -408,7 +418,7 @@
   --the7-microwidget-button-right-padding: 20px;
   --the7-microwidget-button-top-padding: 10px;
   --the7-microwidgets-in-top-line-color: #888888;
-  --the7-microwidgets-in-top-line-font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  --the7-microwidgets-in-top-line-font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
   --the7-microwidgets-in-top-line-font-size: 20px;
   --the7-microwidgets-in-top-line-icon-color: #888888;
   --the7-microwidgets-in-top-line-icon-size: 16px;
@@ -685,6 +695,7 @@
   --the7-top-bg-position-y: center;
   --the7-top-bg-repeat: repeat;
   --the7-top-color: #aaaaaa;
+  --the7-top-content-padding: 0px;
   --the7-top-icons-bg-color-hover: #999999;
   --the7-top-icons-bg-color: #ffffff;
   --the7-top-icons-border-color-hover: rgba(255,255,255,0);
