@@ -325,9 +325,11 @@
   --the7-menu-area-below-padding-bottom: 0px;
   --the7-menu-area-below-padding-left: 0px;
   --the7-menu-area-below-padding-right: 0px;
+  --the7-menu-area-below-padding-top: 0px;
   --the7-menu-area-left-padding-bottom: 0px;
   --the7-menu-area-left-padding-left: 0px;
   --the7-menu-area-left-padding-right: 0px;
+  --the7-menu-area-left-padding-top: 0px;
   --the7-menu-area-right-padding-bottom: 0px;
   --the7-menu-area-right-padding-left: 40px;
   --the7-menu-area-right-padding-right: 0px;
@@ -335,9 +337,11 @@
   --the7-menu-area-top-line-padding-bottom: 0px;
   --the7-menu-area-top-line-padding-left: 0px;
   --the7-menu-area-top-line-padding-right: 0px;
+  --the7-menu-area-top-line-padding-top: 0px;
   --the7-menu-area-top-line-right-padding-bottom: 0px;
   --the7-menu-area-top-line-right-padding-left: 0px;
   --the7-menu-area-top-line-right-padding-right: 0px;
+  --the7-menu-area-top-line-right-padding-top: 0px;
   --the7-menu-caption-font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
   --the7-menu-caption-font-size: 16px;
   --the7-menu-caption-gap: 10px;
@@ -402,7 +406,7 @@
   --the7-microwidget-button-right-padding: 20px;
   --the7-microwidget-button-top-padding: 10px;
   --the7-microwidgets-in-top-line-color: #888888;
-  --the7-microwidgets-in-top-line-font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  --the7-microwidgets-in-top-line-font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
   --the7-microwidgets-in-top-line-font-size: 20px;
   --the7-microwidgets-in-top-line-icon-color: #888888;
   --the7-microwidgets-in-top-line-icon-size: 16px;
@@ -654,6 +658,7 @@
   --the7-top-bg-position-y: center;
   --the7-top-bg-repeat: repeat;
   --the7-top-color: #ffffff;
+  --the7-top-content-padding: 0px;
   --the7-top-icons-bg-color-hover: #27b99e;
   --the7-top-icons-bg-color: #2cd3b4;
   --the7-top-icons-border-color-hover: rgba(35,196,167,0);
@@ -701,13 +706,13 @@
   --the7-widget-title-line-height-desktop: 26px;
   --the7-widget-title-line-height: 26px;
   --the7-widget-title-text-transform: none;
-  --the7-woo-content-font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  --the7-woo-content-font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
   --the7-woo-content-font-size-desktop: 20px;
   --the7-woo-content-font-size: 20px;
   --the7-woo-content-line-height-desktop: 30px;
   --the7-woo-content-line-height: 30px;
   --the7-woo-content-text-transform: none;
-  --the7-woo-title-font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  --the7-woo-title-font-family: "Arial", Helvetica, Arial, Verdana, sans-serif;
   --the7-woo-title-font-size-desktop: 20px;
   --the7-woo-title-font-size: 20px;
   --the7-woo-title-line-height-desktop: 30px;
