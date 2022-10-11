@@ -2188,12 +2188,13 @@
   .project-navigation > span,
   .album-content-description,
   .hide-thumb-btn,
-  .photo-scroller .ts-wrap.scroller-thumbnails,
+  .photo-scroller:not([class*="the7_photo-scroller"]) .ts-wrap.scroller-thumbnails,
+  .photo-scroller:not([class*="the7_photo-scroller"]) .hide-thumb-btn,
   .share-overlay h3 {
     display: none;
   }
-  .photo-scroller .btn-cntr,
-  .photo-scroller .slide-caption {
+  .photo-scroller:not([class*="the7_photo-scroller"]) .btn-cntr,
+  .photo-scroller:not([class*="the7_photo-scroller"]) .slide-caption {
     bottom: 5px !important;
   }
   .project-navigation .next-post {
